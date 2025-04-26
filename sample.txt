@@ -1,1 +1,1 @@
-c
+ --allow-unrelated-histories
