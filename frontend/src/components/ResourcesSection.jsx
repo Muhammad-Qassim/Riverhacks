@@ -24,11 +24,11 @@ function ResourcesSection() {
     {
       id: 3,
       image:
-        "https://cdn.builder.io/api/v1/image/assets/5656d63d216a4da9bc3276dd44e000a5/7fe9517f92d9e3f4fb204b8c0f5dab21a56a27af?placeholderIfAbsent=true",
-      logo: "https://cdn.builder.io/api/v1/image/assets/5656d63d216a4da9bc3276dd44e000a5/810dd738ffb90bfaddfcb410c251ee9f926a9e31?placeholderIfAbsent=true",
-      title: "Meta LlaMA",
+        "https://diplo-media.s3.eu-central-1.amazonaws.com/2025/04/Google-gemini-AI-for-kids-safety.png",
+      logo: "https://mir-s3-cdn-cf.behance.net/project_modules/1400/7cf51e188450701.65b6d6991d38d.png",
+      title: "Google Gemini",
       remixes: "932 Remixes",
-      link: "https://ai.meta.com/llama/",
+      link: "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiI-67Pm_iMAxUJJUQIHWduALwYABABGgJkeg&co=1&gclid=CjwKCAjwq7fABhB2EiwAwk-YbGqYi2Wvy1vWq30LJu8SwEbuScoo4BYijfogDcx8yV6Z8ADnNz8puxoCDOUQAvD_BwE&ohost=www.google.com&cid=CAESeuD2VC6eVYxKV7NXSVXMQ6ZcQLHiFv15Zg7ZlCcmKe3Zle349mkJ9oDYppIcqTP5S31vQkAHl-hn7im3tWmWGrezDmqqdf4HRxGU2FIHoZo1ZP9JOXMu5NRqF-glPDxGF4t1BUuBede_9nwGn-wttDBWdHiRWvaI16rL&sig=AOD64_0OXsFxi8rNQtusozsWd4B5dWvR0g&q&adurl&ved=2ahUKEwijj6vPm_iMAxVwKkQIHb1XGu4Q0Qx6BAgJEAE",
     },
     {
       id: 4,
