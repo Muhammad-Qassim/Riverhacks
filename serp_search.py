@@ -15,11 +15,11 @@ if not SERPAPI_API_KEY:
     raise ValueError("No SERPAPI_API_KEY found. Please add it to your .env file.")
 
 # Function to search Google
-def search_google_maps(place):
+def search_google_maps(place, zipcode):
     params = {
         "engine": "google_maps",
-        "q": place,
-        "location": "Austin, Texas",
+        "q": place + "at " + zipcode,
+        "location": "Texas",
         "api_key": SERPAPI_API_KEY,
         "type": "search",  # important: tells SerpApi we are doing a search
         "hl": "en",
@@ -112,7 +112,7 @@ def main():
     locationInfo = sys.argv[4] if len(sys.argv) > 4 else ""
     
     if choice == "1":
-        search_google_maps(place + zipcode)
+        search_google_maps(place, zipcode)
     elif choice == "2":
         if not zipcode or not locationInfo:
             print("Zipcode and location required for Yelp search.")
