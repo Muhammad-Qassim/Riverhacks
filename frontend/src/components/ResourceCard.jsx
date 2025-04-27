@@ -24,7 +24,6 @@ function ResourceCard({ image, logo, title, remixes, link }) {
         </div>
       </div>
     </article>
-
   );
 }
 
