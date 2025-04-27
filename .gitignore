@@ -9,3 +9,6 @@ backend/Qdrant/__pycache__/
 backend/Client/__pycache__/
 
 backend/SlerpAPI/__pycache__/
+
+
+myenv/
