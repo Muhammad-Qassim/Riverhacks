@@ -27,12 +27,14 @@ function HeroSection() {
 
 
    // 4. Create handler function to update the search value state
-  const handleKeywordClick = (keyword) => {
-    setSearchValue(keyword);
-    // Optional: You could also trigger the actual search logic here if needed
-    console.log(`Search bar set to: ${keyword}`);
+   const handleKeywordClick = (keyword) => {
+    setSearchValue(prev =>
+      // if there's already text, put a space between keyword and existing
+      `${keyword}${prev ? " " + prev : ""}`
+    );
   };
 
+  
 
 
 
@@ -69,6 +71,7 @@ function HeroSection() {
             className="overflow-hidden grow shrink self-stretch px-2.5 text-2xl text-black rounded-lg min-h-[26px] min-w-60 w-[821px] max-md:max-w-full bg-stone-100 focus:outline-none"
             
              // 3. Control the Input 
+             
             value={searchValue} // Bind value to state
             onChange={(e) => setSearchValue(e.target.value)} // Update state on typing
           />
