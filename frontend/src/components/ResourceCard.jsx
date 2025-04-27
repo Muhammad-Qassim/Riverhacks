@@ -1,9 +1,9 @@
 import React from "react";
 
-function ResourceCard({ image, logo, title, remixes }) {
+function ResourceCard({ image, logo, title, remixes, link }) {
   return (
-    <article className="flex flex-col grow shrink self-stretch py-1 my-auto min-w-60 w-[300px]">
-      <a href="#" className="overflow-hidden rounded-2xl bg-stone-100">
+    <article className="flex flex-col grow shrink self-stretch py-1 my-auto min-w-60 w-[300px] transform transition-transform duration-300 hover:scale-95">
+      <a href={link} className="overflow-hidden rounded-2xl bg-stone-100">
         <img
           src={image}
           className="object-contain w-full rounded-2xl aspect-[1.78]"
@@ -24,6 +24,7 @@ function ResourceCard({ image, logo, title, remixes }) {
         </div>
       </div>
     </article>
+
   );
 }
 
