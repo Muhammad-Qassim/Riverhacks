@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="flex relative flex-col justify-center p-10 mt-16 w-full rounded-3xl border-2 border-solid bg-stone-50 border-stone-100 max-w-[1660px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
       <nav className="px-11 w-full max-md:px-5 max-md:max-w-full">
-        <div className="flex flex-wrap gap-10 items-start max-md:max-w-full">
+        <div className="flex flex-wrap gap-50 items-start max-md:max-w-full">
           <img
             src="https://cdn.builder.io/api/v1/image/assets/5656d63d216a4da9bc3276dd44e000a5/7e0f023005b2cb5278b02b6f530025d81ec86251?placeholderIfAbsent=true"
             className="object-contain shrink-0 aspect-[0.98] min-h-[41px] w-[41px]"
@@ -46,12 +46,6 @@ function Footer() {
                   className="object-contain shrink-0 aspect-square w-[19px]"
                   alt="External link"
                 />
-              </li>
-              <li className="mt-7">
-                <a href="#">Support</a>
-              </li>
-              <li className="mt-7 text-lg leading-relaxed">
-                <a href="#">Integrations</a>
               </li>
             </ul>
           </div>
