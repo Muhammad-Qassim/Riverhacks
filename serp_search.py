@@ -18,10 +18,10 @@ if not SERPAPI_API_KEY:
 def search_google_maps(place, zipcode):
     params = {
         "engine": "google_maps",
-        "q": place + "at " + zipcode,
+        "q": place + " at " + zipcode,
         "location": "Texas",
         "api_key": SERPAPI_API_KEY,
-        "type": "search",  # important: tells SerpApi we are doing a search
+        "type": "search",
         "hl": "en",
         "gl": "us"
     }
@@ -29,30 +29,29 @@ def search_google_maps(place, zipcode):
     search = GoogleSearch(params)
     results = search.get_dict()
 
+    output = []
+
     if "local_results" in results:
         businesses = results["local_results"]
-
-        '''
-        # Sort businesses by rating (highest first)
-        businesses_sorted = sorted(
-            businesses,
-            key=lambda x: x.get("rating", 0),
-            reverse=True
-        )
-
-        # Only take top 5 after sorting
-        top5_businesses = businesses_sorted[:5]
-        '''
-        for idx, result in enumerate(businesses, 1):
+        
+        for result in businesses:
             name = result.get("title", "No Name")
             address = result.get("address", "No Address")
             rating = result.get("rating", "No rating")
             reviewsNum = result.get("reviews", "No review")
-            print(f"{idx}. {name}")
-            print(f"   {address}")
-            print(f"   {rating} ⭐ ({reviewsNum} reviews)\n")
+
+            business_data = {
+                "name": name,
+                "address": address,
+                "rating": rating,
+                "reviews": reviewsNum
+            }
+            output.append(business_data)
     else:
-        print("No results found.")
+        output.append({"error": "No results found."})
+
+    return output
+
 
  ## this failed to work
 def search_for_address(placename, zipcode, locationInfo):
@@ -78,48 +77,65 @@ def search_for_address(placename, zipcode, locationInfo):
         return "Address notfound"
 
 
-###
 def search_with_yelp(place, zipcode, locationInfo):
     params = {
         "api_key": SERPAPI_API_KEY,
         "engine": "yelp",
-        "find_loc": locationInfo , # Ex: Pflugerville, Texas
-        "find_desc": place, #Ex: Boba
-        "l":  zipcode
-        }
+        "find_loc": locationInfo,
+        "find_desc": place,
+        "l": zipcode
+    }
     search = GoogleSearch(params)
     results = search.get_dict()
-    #print name, addresses, and rating (number of rating)
+
+    output = []
+
     if "organic_results" in results:
-        for idx, business in enumerate(results["organic_results"], 1):
+        for business in results["organic_results"]:
             name = business.get("title", "No name")
             address = business.get("address", "Address not found")
             rating = business.get("rating", "No rating")
             link = business.get("link", "No Link")
+
             if address == "Address not found":
-                print(search_for_address(place, zipcode, locationInfo))
-            print(f"{idx}. {name} ({rating} ⭐)")
-            #print(f"{address}")
-            print(f"{link}\n")
+                address = search_for_address(place, zipcode, locationInfo)
+
+            business_data = {
+                "name": name,
+                "address": address,
+                "rating": rating,
+                "link": link
+            }
+            output.append(business_data)
     else:
-        print("Nandemonaiya")
+        output.append({"error": "No results found."})
+
+    return output
+
     
+
+import json
 
 def main():
     choice = sys.argv[1]
     place = sys.argv[2]
     zipcode = sys.argv[3] if len(sys.argv) > 3 else ""
     locationInfo = sys.argv[4] if len(sys.argv) > 4 else ""
-    
+
+    output = {}
+
     if choice == "1":
-        search_google_maps(place, zipcode)
+        output = search_google_maps(place, zipcode)
     elif choice == "2":
         if not zipcode or not locationInfo:
-            print("Zipcode and location required for Yelp search.")
-            sys.exit(1)
-        search_with_yelp(place, zipcode, locationInfo)
+            output = {"error": "Zipcode and location required for Yelp search."}
+        else:
+            output = search_with_yelp(place, zipcode, locationInfo)
     else:
-        print("Invalid option. Use 1 for Google Maps, 2 for Yelp.")
-# Example usage
+        output = {"error": "Invalid option. Use 1 for Google Maps, 2 for Yelp."}
+
+    # Print JSON to stdout
+    print(json.dumps(output, indent=2))
+
 if __name__ == "__main__":
     main()
