@@ -62,7 +62,7 @@ function ResourcesSection() {
 
 
         <div className="mt-6 w-full max-md:max-w-full">
-          <div className="flex flex-wrap gap-7 items-center w-full max-md:max-w-full">
++          <div className="flex flex-wrap gap-7 w-full max-md:max-w-full"> {/* Changed: Removed items-center */}
             {resources.map((resource) => (
               <ResourceCard
                 key={resource.id}
@@ -70,6 +70,7 @@ function ResourcesSection() {
                 logo={resource.logo}
                 title={resource.title}
                 remixes={resource.remixes}
+                link={resource.link}
               />
             ))}
           </div>
