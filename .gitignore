@@ -1,0 +1,11 @@
+myenv/
+.env
+.env.*
+# Ignore all .env files
+backend/Qdrant/__pycache__/
+
+.vscode/
+
+backend/Client/__pycache__/
+
+backend/SlerpAPI/__pycache__/
