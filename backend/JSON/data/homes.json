@@ -1,0 +1,1610 @@
+[
+    {
+      "zipcode": "78704",
+      "neighborhoods_info": [
+        {
+          "average_value": "$1.36M",
+          "neighborhood": "Barton Hills"
+        },
+        {
+          "average_value": "$1.15M",
+          "neighborhood": "Bouldin Creek"
+        },
+        {
+          "average_value": "$1.14M",
+          "neighborhood": "Travis Heights"
+        },
+        {
+          "average_value": "$1.13M",
+          "neighborhood": "Zilker"
+        },
+        {
+          "average_value": "$965K",
+          "neighborhood": "SoCo"
+        },
+        {
+          "average_value": "$807K",
+          "neighborhood": "Dawson"
+        },
+        {
+          "average_value": "$789K",
+          "neighborhood": "Galindo"
+        },
+        {
+          "average_value": "$739K",
+          "neighborhood": "Saint Edward's"
+        },
+        {
+          "average_value": "$730K",
+          "neighborhood": "South Lamar"
+        }
+      ]
+    },
+    {
+      "zipcode": "78742",
+      "neighborhoods_info": [
+        {
+          "average_value": "$369K",
+          "neighborhood": "Del Valle"
+        }
+      ]
+    },
+    {
+      "zipcode": "78746",
+      "neighborhoods_info": [
+        {
+          "average_value": "$2.76M",
+          "neighborhood": "Rollingwood"
+        },
+        {
+          "average_value": "$2.45M",
+          "neighborhood": "Westlake"
+        },
+        {
+          "average_value": "$2.35M",
+          "neighborhood": "West Lake Hills"
+        },
+        {
+          "average_value": "$1.51M",
+          "neighborhood": "Camelot"
+        },
+        {
+          "average_value": "$1.38M",
+          "neighborhood": "Westfield"
+        },
+        {
+          "average_value": "$1.36M",
+          "neighborhood": "Barton Hills"
+        },
+        {
+          "average_value": "$1.33M",
+          "neighborhood": "Lost Creek"
+        },
+        {
+          "average_value": "$786K",
+          "neighborhood": "East Oak Hill"
+        },
+        {
+          "average_value": "$2.72M",
+          "neighborhood": "Barton Creek Highlands"
+        }
+      ]
+    },
+    {
+      "zipcode": "78617",
+      "neighborhoods_info": [
+        {
+          "average_value": "$369K",
+          "neighborhood": "Del Valle"
+        },
+        {
+          "average_value": "$330K",
+          "neighborhood": "Garfield"
+        },
+        {
+          "average_value": "$329K",
+          "neighborhood": "Circuit of the Americas"
+        }
+      ]
+    },
+    {
+      "zipcode": "78682",
+      "neighborhoods_info": [
+        {
+          "average_value": "$415K",
+          "neighborhood": "Taylor"
+        },
+        {
+          "average_value": "$358K",
+          "neighborhood": "Gattis School"
+        },
+        {
+          "average_value": "$351K",
+          "neighborhood": "Western Gilleland"
+        }
+      ]
+    },
+    {
+      "zipcode": "78721",
+      "neighborhoods_info": [
+        {
+          "average_value": "$498K",
+          "neighborhood": "Johnston Terrace"
+        },
+        {
+          "average_value": "$472K",
+          "neighborhood": "East MLK"
+        }
+      ]
+    },
+    {
+      "zipcode": "78660",
+      "neighborhoods_info": [
+        {
+          "average_value": "$567K",
+          "neighborhood": "Forest Creek"
+        },
+        {
+          "average_value": "$511K",
+          "neighborhood": "Blackhawk"
+        },
+        {
+          "average_value": "$451K",
+          "neighborhood": "East Pflugerville"
+        },
+        {
+          "average_value": "$422K",
+          "neighborhood": "Rolling Hills"
+        },
+        {
+          "average_value": "$415K",
+          "neighborhood": "Central District"
+        },
+        {
+          "average_value": "$402K",
+          "neighborhood": "East Pecan"
+        },
+        {
+          "average_value": "$402K",
+          "neighborhood": "Dessau"
+        },
+        {
+          "average_value": "$401K",
+          "neighborhood": "Upper Westside"
+        },
+        {
+          "average_value": "$397K",
+          "neighborhood": "Highland Park"
+        },
+        {
+          "average_value": "$389K",
+          "neighborhood": "Wilbarger"
+        },
+        {
+          "average_value": "$351K",
+          "neighborhood": "Western Gilleland"
+        },
+        {
+          "average_value": "$339K",
+          "neighborhood": "Northtown"
+        }
+      ]
+    },
+    {
+      "zipcode": "78613",
+      "neighborhoods_info": [
+        {
+          "average_value": "$722K",
+          "neighborhood": "Caballo Ranch"
+        },
+        {
+          "average_value": "$689K",
+          "neighborhood": "Avery Ranch"
+        },
+        {
+          "average_value": "$630K",
+          "neighborhood": "Brushy Creek"
+        },
+        {
+          "average_value": "$717K",
+          "neighborhood": "Ranch at Deer Creek"
+        },
+        {
+          "average_value": "$584K",
+          "neighborhood": "Silverado Ranch"
+        },
+        {
+          "average_value": "$800K",
+          "neighborhood": "Twin Creeks"
+        },
+        {
+          "average_value": "$708K",
+          "neighborhood": "Red Oaks"
+        },
+        {
+          "average_value": "$683K",
+          "neighborhood": "The Highlands at Crystal Falls"
+        },
+        {
+          "average_value": "$537K",
+          "neighborhood": "Ranch at Cypress Creek"
+        },
+        {
+          "average_value": "$520K",
+          "neighborhood": "Buttercup Creek"
+        },
+        {
+          "average_value": "$460K",
+          "neighborhood": "Anderson Mill West"
+        },
+        {
+          "average_value": "$419K",
+          "neighborhood": "Quest Village"
+        },
+        {
+          "average_value": "$408K",
+          "neighborhood": "Carriage Hills"
+        },
+        {
+          "average_value": "$904K",
+          "neighborhood": "The Place"
+        },
+        {
+          "average_value": "$504K",
+          "neighborhood": "Cedar Park Ranchettes"
+        },
+        {
+          "average_value": "$434K",
+          "neighborhood": "Gann Ranch"
+        },
+        {
+          "average_value": "$399K",
+          "neighborhood": "Park Place"
+        }
+      ]
+    },
+    {
+      "zipcode": "78701",
+      "neighborhoods_info": [
+        {
+          "average_value": "$1.83M",
+          "neighborhood": "Northshore Austin"
+        },
+        {
+          "average_value": "$1.32M",
+          "neighborhood": "Judges Hill"
+        },
+        {
+          "average_value": "$1.04M",
+          "neighborhood": "West End"
+        },
+        {
+          "average_value": "$980K",
+          "neighborhood": "Market District"
+        },
+        {
+          "average_value": "$914K",
+          "neighborhood": "Sixth Street District"
+        },
+        {
+          "average_value": "$858K",
+          "neighborhood": "Rainey Street Historic District"
+        },
+        {
+          "average_value": "$685K",
+          "neighborhood": "North Side"
+        },
+        {
+          "average_value": "$571K",
+          "neighborhood": "Wooldridge Square"
+        },
+        {
+          "average_value": "$560K",
+          "neighborhood": "Congress Avenue"
+        },
+        {
+          "average_value": "$554K",
+          "neighborhood": "Uptown Austin"
+        },
+        {
+          "average_value": "$551K",
+          "neighborhood": "Texas Capital"
+        }
+      ]
+    },
+    {
+      "zipcode": "78756",
+      "neighborhoods_info": [
+        {
+          "average_value": "$1.01M",
+          "neighborhood": "Rosedale"
+        },
+        {
+          "average_value": "$938K",
+          "neighborhood": "Allandale"
+        },
+        {
+          "average_value": "$758K",
+          "neighborhood": "Brentwood"
+        }
+      ]
+    },
+    {
+      "zipcode": "78737",
+      "neighborhoods_info": [
+        {
+          "average_value": "$683K",
+          "neighborhood": "West Oak Hill"
+        },
+        {
+          "average_value": "$843K",
+          "neighborhood": "Hays Wartha"
+        },
+        {
+          "average_value": "$760K",
+          "neighborhood": "Highpointe"
+        },
+        {
+          "average_value": "$727K",
+          "neighborhood": "Granada Hills"
+        },
+        {
+          "average_value": "$729K",
+          "neighborhood": "Belterra"
+        }
+      ]
+    },
+    {
+      "zipcode": "78739",
+      "neighborhoods_info": [
+        {
+          "average_value": "$915K",
+          "neighborhood": "Meridian"
+        },
+        {
+          "average_value": "$815K",
+          "neighborhood": "Circle C Ranch"
+        },
+        {
+          "average_value": "$706K",
+          "neighborhood": "Shady Hollow"
+        },
+        {
+          "average_value": "$534K",
+          "neighborhood": "South Brodie"
+        },
+        {
+          "average_value": "$843K",
+          "neighborhood": "Hays Wartha"
+        }
+      ]
+    },
+    {
+      "zipcode": "78757",
+      "neighborhoods_info": [
+        {
+          "average_value": "$938K",
+          "neighborhood": "Allandale"
+        },
+        {
+          "average_value": "$758K",
+          "neighborhood": "Brentwood"
+        },
+        {
+          "average_value": "$757K",
+          "neighborhood": "Crestview"
+        },
+        {
+          "average_value": "$536K",
+          "neighborhood": "Wooten"
+        },
+        {
+          "average_value": "$494K",
+          "neighborhood": "North Shoal Creek"
+        }
+      ]
+    },
+    {
+      "zipcode": "78725",
+      "neighborhoods_info": [
+        {
+          "average_value": "$472K",
+          "neighborhood": "East MLK"
+        },
+        {
+          "average_value": "$336K",
+          "neighborhood": "Hornsby Bend"
+        },
+        {
+          "average_value": "$378K",
+          "neighborhood": "Rogers Hill"
+        }
+      ]
+    },
+    {
+      "zipcode": "78719",
+      "neighborhoods_info": [
+        {
+          "average_value": "$447K",
+          "neighborhood": "Southeast Austin"
+        },
+        {
+          "average_value": "$369K",
+          "neighborhood": "Del Valle"
+        },
+        {
+          "average_value": "$329K",
+          "neighborhood": "Circuit of the Americas"
+        }
+      ]
+    },
+    {
+      "zipcode": "78752",
+      "neighborhoods_info": [
+        {
+          "average_value": "$560K",
+          "neighborhood": "Skyview"
+        },
+        {
+          "average_value": "$483K",
+          "neighborhood": "Highland"
+        },
+        {
+          "average_value": "$410K",
+          "neighborhood": "Coronado Hills"
+        },
+        {
+          "average_value": "$400K",
+          "neighborhood": "Saint Johns"
+        }
+      ]
+    },
+    {
+      "zipcode": "78730",
+      "neighborhoods_info": [
+        {
+          "average_value": "$1.82M",
+          "neighborhood": "Glenlake"
+        },
+        {
+          "average_value": "$1.61M",
+          "neighborhood": "Long Canyon"
+        },
+        {
+          "average_value": "$1.48M",
+          "neighborhood": "Shepherd Mountain"
+        },
+        {
+          "average_value": "$1.25M",
+          "neighborhood": "River Place"
+        },
+        {
+          "average_value": "$960K",
+          "neighborhood": "Steiner Ranch"
+        },
+        {
+          "average_value": "$503K",
+          "neighborhood": "Four Points"
+        }
+      ]
+    },
+    {
+      "zipcode": "78712",
+      "neighborhoods_info": [
+        {
+          "average_value": "$795K",
+          "neighborhood": "North University"
+        }
+      ]
+    },
+    {
+      "zipcode": "78767",
+      "neighborhoods_info": [
+        {
+          "average_value": "$1.83M",
+          "neighborhood": "Northshore Austin"
+        },
+        {
+          "average_value": "$914K",
+          "neighborhood": "Sixth Street District"
+        },
+        {
+          "average_value": "$560K",
+          "neighborhood": "Congress Avenue"
+        },
+        {
+          "average_value": "$551K",
+          "neighborhood": "Texas Capital"
+        }
+      ]
+    },
+    {
+      "zipcode": "78727",
+      "neighborhoods_info": [
+        {
+          "average_value": "$678K",
+          "neighborhood": "Angus Ranch"
+        },
+        {
+          "average_value": "$623K",
+          "neighborhood": "McNeil"
+        },
+        {
+          "average_value": "$508K",
+          "neighborhood": "Milwood"
+        },
+        {
+          "average_value": "$508K",
+          "neighborhood": "Scofield Farms"
+        },
+        {
+          "average_value": "$489K",
+          "neighborhood": "Balcones District Park"
+        },
+        {
+          "average_value": "$434K",
+          "neighborhood": "Wells Branch"
+        },
+        {
+          "average_value": "$418K",
+          "neighborhood": "Lamplight Village"
+        }
+      ]
+    },
+    {
+      "zipcode": "78702",
+      "neighborhoods_info": [
+        {
+          "average_value": "$770K",
+          "neighborhood": "East Cesar Chavez"
+        },
+        {
+          "average_value": "$713K",
+          "neighborhood": "East Austin"
+        },
+        {
+          "average_value": "$710K",
+          "neighborhood": "Holly"
+        },
+        {
+          "average_value": "$670K",
+          "neighborhood": "Govalle"
+        },
+        {
+          "average_value": "$653K",
+          "neighborhood": "Chestnut"
+        },
+        {
+          "average_value": "$612K",
+          "neighborhood": "Rosewood"
+        }
+      ]
+    },
+    {
+      "zipcode": "78724",
+      "neighborhoods_info": [
+        {
+          "average_value": "$518K",
+          "neighborhood": "Walnut Creek Greenbelt"
+        },
+        {
+          "average_value": "$420K",
+          "neighborhood": "Walnut Creek"
+        },
+        {
+          "average_value": "$336K",
+          "neighborhood": "Hornsby Bend"
+        },
+        {
+          "average_value": "$419K",
+          "neighborhood": "LBJ"
+        },
+        {
+          "average_value": "$378K",
+          "neighborhood": "Rogers Hill"
+        },
+        {
+          "average_value": "$425K",
+          "neighborhood": "Decker Lane"
+        }
+      ]
+    },
+    {
+      "zipcode": "78736",
+      "neighborhoods_info": [
+        {
+          "average_value": "$683K",
+          "neighborhood": "West Oak Hill"
+        },
+        {
+          "average_value": "$3.02M",
+          "neighborhood": "Spanish Oaks"
+        }
+      ]
+    },
+    {
+      "zipcode": "78713",
+      "neighborhoods_info": [
+        {
+          "average_value": "$551K",
+          "neighborhood": "Texas Capital"
+        }
+      ]
+    },
+    {
+      "zipcode": "78717",
+      "neighborhoods_info": [
+        {
+          "average_value": "$689K",
+          "neighborhood": "Avery Ranch"
+        },
+        {
+          "average_value": "$630K",
+          "neighborhood": "Brushy Creek"
+        }
+      ]
+    },
+    {
+      "zipcode": "78744",
+      "neighborhoods_info": [
+        {
+          "average_value": "$477K",
+          "neighborhood": "Onion Creek"
+        },
+        {
+          "average_value": "$447K",
+          "neighborhood": "Southeast Austin"
+        },
+        {
+          "average_value": "$367K",
+          "neighborhood": "McKinney"
+        },
+        {
+          "average_value": "$365K",
+          "neighborhood": "Bluff Springs"
+        },
+        {
+          "average_value": "$354K",
+          "neighborhood": "Colorado Crossing"
+        },
+        {
+          "average_value": "$327K",
+          "neighborhood": "Franklin Park"
+        }
+      ]
+    },
+    {
+      "zipcode": "78735",
+      "neighborhoods_info": [
+        {
+          "average_value": "$2.59M",
+          "neighborhood": "Barton Creek"
+        },
+        {
+          "average_value": "$1.36M",
+          "neighborhood": "Barton Hills"
+        },
+        {
+          "average_value": "$786K",
+          "neighborhood": "East Oak Hill"
+        },
+        {
+          "average_value": "$683K",
+          "neighborhood": "West Oak Hill"
+        }
+      ]
+    },
+    {
+      "zipcode": "78641",
+      "neighborhoods_info": [
+        {
+          "average_value": "$901K",
+          "neighborhood": "Garey Park"
+        },
+        {
+          "average_value": "$745K",
+          "neighborhood": "Devine Lake"
+        },
+        {
+          "average_value": "$722K",
+          "neighborhood": "Caballo Ranch"
+        },
+        {
+          "average_value": "$662K",
+          "neighborhood": "Parkside"
+        },
+        {
+          "average_value": "$657K",
+          "neighborhood": "Liberty Hill"
+        },
+        {
+          "average_value": "$616K",
+          "neighborhood": "Bryson Ridge"
+        },
+        {
+          "average_value": "$510K",
+          "neighborhood": "Deerbrooke"
+        },
+        {
+          "average_value": "$459K",
+          "neighborhood": "Lakeline Ranch"
+        },
+        {
+          "average_value": "$446K",
+          "neighborhood": "Larkspur Park"
+        },
+        {
+          "average_value": "$445K",
+          "neighborhood": "Downtown Leander"
+        },
+        {
+          "average_value": "$385K",
+          "neighborhood": "Benbrook Ranch"
+        },
+        {
+          "average_value": "$367K",
+          "neighborhood": "Seward Junction"
+        },
+        {
+          "average_value": "$928K",
+          "neighborhood": "Round Mountain Oaks"
+        },
+        {
+          "average_value": "$800K",
+          "neighborhood": "Twin Creeks"
+        },
+        {
+          "average_value": "$683K",
+          "neighborhood": "The Highlands at Crystal Falls"
+        },
+        {
+          "average_value": "$648K",
+          "neighborhood": "The Bluffs"
+        },
+        {
+          "average_value": "$614K",
+          "neighborhood": "Mason Hills"
+        },
+        {
+          "average_value": "$461K",
+          "neighborhood": "Leander Heights"
+        },
+        {
+          "average_value": "$378K",
+          "neighborhood": "Block House Creek"
+        },
+        {
+          "average_value": "$337K",
+          "neighborhood": "Mason Creek"
+        },
+        {
+          "average_value": "$564K",
+          "neighborhood": "Leander Hills"
+        },
+        {
+          "average_value": "$527K",
+          "neighborhood": "Sandy Creek Ranches"
+        },
+        {
+          "average_value": "$426K",
+          "neighborhood": "Vista Ridge"
+        }
+      ]
+    },
+    {
+      "zipcode": "78748",
+      "neighborhoods_info": [
+        {
+          "average_value": "$706K",
+          "neighborhood": "Shady Hollow"
+        },
+        {
+          "average_value": "$511K",
+          "neighborhood": "Cherry Creek"
+        },
+        {
+          "average_value": "$438K",
+          "neighborhood": "Slaughter Creek"
+        },
+        {
+          "average_value": "$437K",
+          "neighborhood": "South Austin"
+        },
+        {
+          "average_value": "$534K",
+          "neighborhood": "South Brodie"
+        },
+        {
+          "average_value": "$524K",
+          "neighborhood": "Manchaca"
+        }
+      ]
+    },
+    {
+      "zipcode": "78728",
+      "neighborhoods_info": [
+        {
+          "average_value": "$623K",
+          "neighborhood": "McNeil"
+        },
+        {
+          "average_value": "$434K",
+          "neighborhood": "Wells Branch"
+        }
+      ]
+    },
+    {
+      "zipcode": "78749",
+      "neighborhoods_info": [
+        {
+          "average_value": "$815K",
+          "neighborhood": "Circle C Ranch"
+        },
+        {
+          "average_value": "$786K",
+          "neighborhood": "East Oak Hill"
+        },
+        {
+          "average_value": "$683K",
+          "neighborhood": "West Oak Hill"
+        },
+        {
+          "average_value": "$627K",
+          "neighborhood": "Legend Oaks"
+        },
+        {
+          "average_value": "$613K",
+          "neighborhood": "Western Oaks"
+        },
+        {
+          "average_value": "$559K",
+          "neighborhood": "Sendera"
+        },
+        {
+          "average_value": "$513K",
+          "neighborhood": "Maple Run"
+        },
+        {
+          "average_value": "$486K",
+          "neighborhood": "Deerfield At Brodie"
+        },
+        {
+          "average_value": "$534K",
+          "neighborhood": "South Brodie"
+        }
+      ]
+    },
+    {
+      "zipcode": "78741",
+      "neighborhoods_info": [
+        {
+          "average_value": "$548K",
+          "neighborhood": "East Riverside-Oltorf"
+        },
+        {
+          "average_value": "$466K",
+          "neighborhood": "Parker Lane"
+        },
+        {
+          "average_value": "$422K",
+          "neighborhood": "South Shore"
+        },
+        {
+          "average_value": "$381K",
+          "neighborhood": "Montopolis"
+        }
+      ]
+    },
+    {
+      "zipcode": "78691",
+      "neighborhoods_info": [
+        {
+          "average_value": "$415K",
+          "neighborhood": "Taylor"
+        },
+        {
+          "average_value": "$415K",
+          "neighborhood": "Central District"
+        },
+        {
+          "average_value": "$351K",
+          "neighborhood": "Western Gilleland"
+        }
+      ]
+    },
+    {
+      "zipcode": "78729",
+      "neighborhoods_info": [
+        {
+          "average_value": "$508K",
+          "neighborhood": "Milwood"
+        },
+        {
+          "average_value": "$473K",
+          "neighborhood": "Anderson Mill"
+        }
+      ]
+    },
+    {
+      "zipcode": "78733",
+      "neighborhoods_info": [
+        {
+          "average_value": "$1.30M",
+          "neighborhood": "Lake Austin"
+        },
+        {
+          "average_value": "$1.27M",
+          "neighborhood": "Barton Creek West"
+        },
+        {
+          "average_value": "$2.72M",
+          "neighborhood": "Barton Creek Highlands"
+        },
+        {
+          "average_value": "$1.36M",
+          "neighborhood": "Senna Hills"
+        }
+      ]
+    },
+    {
+      "zipcode": "78745",
+      "neighborhoods_info": [
+        {
+          "average_value": "$675K",
+          "neighborhood": "Westgate"
+        },
+        {
+          "average_value": "$552K",
+          "neighborhood": "South Manchaca"
+        },
+        {
+          "average_value": "$511K",
+          "neighborhood": "Cherry Creek"
+        },
+        {
+          "average_value": "$487K",
+          "neighborhood": "West Congress"
+        },
+        {
+          "average_value": "$456K",
+          "neighborhood": "East Congress"
+        },
+        {
+          "average_value": "$455K",
+          "neighborhood": "Garrison Park"
+        },
+        {
+          "average_value": "$437K",
+          "neighborhood": "South Austin"
+        },
+        {
+          "average_value": "$410K",
+          "neighborhood": "Sweetbriar"
+        }
+      ]
+    },
+    {
+      "zipcode": "78610",
+      "neighborhoods_info": [
+        {
+          "average_value": "$532K",
+          "neighborhood": "Mustang Ridge"
+        },
+        {
+          "average_value": "$447K",
+          "neighborhood": "Southeast Austin"
+        },
+        {
+          "average_value": "$425K",
+          "neighborhood": "Buda"
+        },
+        {
+          "average_value": "$335K",
+          "neighborhood": "Kyle"
+        },
+        {
+          "average_value": "$407K",
+          "neighborhood": "Sunfield"
+        },
+        {
+          "average_value": null,
+          "neighborhood": "Plum Creek"
+        }
+      ]
+    },
+    {
+      "zipcode": "78703",
+      "neighborhoods_info": [
+        {
+          "average_value": "$2.41M",
+          "neighborhood": "Pemberton Heights"
+        },
+        {
+          "average_value": "$2.02M",
+          "neighborhood": "Tarrytown"
+        },
+        {
+          "average_value": "$1.83M",
+          "neighborhood": "Northshore Austin"
+        },
+        {
+          "average_value": "$1.58M",
+          "neighborhood": "Bryker Woods"
+        },
+        {
+          "average_value": "$1.38M",
+          "neighborhood": "Westfield"
+        },
+        {
+          "average_value": "$1.22M",
+          "neighborhood": "Clarksville"
+        },
+        {
+          "average_value": "$1.04M",
+          "neighborhood": "West End"
+        },
+        {
+          "average_value": "$980K",
+          "neighborhood": "Market District"
+        },
+        {
+          "average_value": "$1.96M",
+          "neighborhood": "Old Enfield"
+        }
+      ]
+    },
+    {
+      "zipcode": "78705",
+      "neighborhoods_info": [
+        {
+          "average_value": "$2.41M",
+          "neighborhood": "Pemberton Heights"
+        },
+        {
+          "average_value": "$1.58M",
+          "neighborhood": "Bryker Woods"
+        },
+        {
+          "average_value": "$874K",
+          "neighborhood": "Hancock"
+        },
+        {
+          "average_value": "$813K",
+          "neighborhood": "Heritage"
+        },
+        {
+          "average_value": "$795K",
+          "neighborhood": "North University"
+        },
+        {
+          "average_value": "$481K",
+          "neighborhood": "West Campus"
+        },
+        {
+          "average_value": "$473K",
+          "neighborhood": "The Drag"
+        },
+        {
+          "average_value": "$1.96M",
+          "neighborhood": "Old Enfield"
+        }
+      ]
+    },
+    {
+      "zipcode": "78732",
+      "neighborhoods_info": [
+        {
+          "average_value": "$1.50M",
+          "neighborhood": "Comanche Trail"
+        },
+        {
+          "average_value": "$1.25M",
+          "neighborhood": "River Place"
+        },
+        {
+          "average_value": "$960K",
+          "neighborhood": "Steiner Ranch"
+        }
+      ]
+    },
+    {
+      "zipcode": "78652",
+      "neighborhoods_info": [
+        {
+          "average_value": "$915K",
+          "neighborhood": "Meridian"
+        },
+        {
+          "average_value": "$425K",
+          "neighborhood": "Buda"
+        },
+        {
+          "average_value": "$524K",
+          "neighborhood": "Manchaca"
+        },
+        {
+          "average_value": "$843K",
+          "neighborhood": "Hays Wartha"
+        }
+      ]
+    },
+    {
+      "zipcode": "78714",
+      "neighborhoods_info": [
+        {
+          "average_value": "$2.02M",
+          "neighborhood": "Tarrytown"
+        },
+        {
+          "average_value": "$1.38M",
+          "neighborhood": "Westfield"
+        }
+      ]
+    },
+    {
+      "zipcode": "78722",
+      "neighborhoods_info": [
+        {
+          "average_value": "$838K",
+          "neighborhood": "Mueller"
+        },
+        {
+          "average_value": "$737K",
+          "neighborhood": "Cherrywood"
+        },
+        {
+          "average_value": "$612K",
+          "neighborhood": "Rosewood"
+        },
+        {
+          "average_value": "$609K",
+          "neighborhood": "Blackland"
+        }
+      ]
+    },
+    {
+      "zipcode": "78723",
+      "neighborhoods_info": [
+        {
+          "average_value": "$838K",
+          "neighborhood": "Mueller"
+        },
+        {
+          "average_value": "$540K",
+          "neighborhood": "University Hills"
+        },
+        {
+          "average_value": "$537K",
+          "neighborhood": "Windsor Park"
+        },
+        {
+          "average_value": "$518K",
+          "neighborhood": "Walnut Creek Greenbelt"
+        },
+        {
+          "average_value": "$472K",
+          "neighborhood": "East MLK"
+        }
+      ]
+    },
+    {
+      "zipcode": "78664",
+      "neighborhoods_info": [
+        {
+          "average_value": "$567K",
+          "neighborhood": "Forest Creek"
+        },
+        {
+          "average_value": "$424K",
+          "neighborhood": "Downtown Round Rock"
+        },
+        {
+          "average_value": "$413K",
+          "neighborhood": "Stony Point"
+        },
+        {
+          "average_value": "$401K",
+          "neighborhood": "Upper Westside"
+        },
+        {
+          "average_value": "$358K",
+          "neighborhood": "Gattis School"
+        },
+        {
+          "average_value": "$351K",
+          "neighborhood": "Western Gilleland"
+        }
+      ]
+    },
+    {
+      "zipcode": "78754",
+      "neighborhoods_info": [
+        {
+          "average_value": "$796K",
+          "neighborhood": "River Ranch"
+        },
+        {
+          "average_value": "$420K",
+          "neighborhood": "Walnut Creek"
+        },
+        {
+          "average_value": "$414K",
+          "neighborhood": "Harris Ridge"
+        },
+        {
+          "average_value": "$400K",
+          "neighborhood": "Parmer Lane"
+        },
+        {
+          "average_value": "$371K",
+          "neighborhood": "Harris Branch"
+        }
+      ]
+    },
+    {
+      "zipcode": "78681",
+      "neighborhoods_info": [
+        {
+          "average_value": "$662K",
+          "neighborhood": "Parkside"
+        },
+        {
+          "average_value": "$658K",
+          "neighborhood": "Wood Glen"
+        },
+        {
+          "average_value": "$630K",
+          "neighborhood": "Brushy Creek"
+        },
+        {
+          "average_value": "$623K",
+          "neighborhood": "McNeil"
+        },
+        {
+          "average_value": "$508K",
+          "neighborhood": "Mayfield Ranch"
+        },
+        {
+          "average_value": "$476K",
+          "neighborhood": "Round Rock West"
+        },
+        {
+          "average_value": "$473K",
+          "neighborhood": "Anderson Mill"
+        },
+        {
+          "average_value": "$434K",
+          "neighborhood": "Wells Branch"
+        }
+      ]
+    },
+    {
+      "zipcode": "78751",
+      "neighborhoods_info": [
+        {
+          "average_value": "$857K",
+          "neighborhood": "Hyde Park"
+        },
+        {
+          "average_value": "$629K",
+          "neighborhood": "North Loop"
+        }
+      ]
+    },
+    {
+      "zipcode": "78758",
+      "neighborhoods_info": [
+        {
+          "average_value": "$489K",
+          "neighborhood": "Balcones District Park"
+        },
+        {
+          "average_value": "$479K",
+          "neighborhood": "Walnut Creek Park"
+        },
+        {
+          "average_value": "$449K",
+          "neighborhood": "Gracywoods"
+        },
+        {
+          "average_value": "$421K",
+          "neighborhood": "North Austin"
+        },
+        {
+          "average_value": "$239K",
+          "neighborhood": "North Burnet"
+        }
+      ]
+    },
+    {
+      "zipcode": "78715",
+      "neighborhoods_info": [
+        {
+          "average_value": "$511K",
+          "neighborhood": "Cherry Creek"
+        },
+        {
+          "average_value": "$455K",
+          "neighborhood": "Garrison Park"
+        }
+      ]
+    },
+    {
+      "zipcode": "78738",
+      "neighborhoods_info": [
+        {
+          "average_value": "$1.01M",
+          "neighborhood": "Bee Cave"
+        },
+        {
+          "average_value": "$953K",
+          "neighborhood": "Lakeway"
+        },
+        {
+          "average_value": "$941K",
+          "neighborhood": "Hamilton Pool"
+        },
+        {
+          "average_value": "$3.02M",
+          "neighborhood": "Spanish Oaks"
+        },
+        {
+          "average_value": "$1.34M",
+          "neighborhood": "The Homestead"
+        },
+        {
+          "average_value": "$1.17M",
+          "neighborhood": "Rough Hollow"
+        },
+        {
+          "average_value": "$758K",
+          "neighborhood": "Sweetwater"
+        }
+      ]
+    },
+    {
+      "zipcode": "78753",
+      "neighborhoods_info": [
+        {
+          "average_value": "$508K",
+          "neighborhood": "Scofield Farms"
+        },
+        {
+          "average_value": "$479K",
+          "neighborhood": "Walnut Creek Park"
+        },
+        {
+          "average_value": "$471K",
+          "neighborhood": "Heritage Hills"
+        },
+        {
+          "average_value": "$414K",
+          "neighborhood": "Harris Ridge"
+        },
+        {
+          "average_value": "$401K",
+          "neighborhood": "Windsor Hills"
+        },
+        {
+          "average_value": "$378K",
+          "neighborhood": "Copperfield"
+        },
+        {
+          "average_value": "$365K",
+          "neighborhood": "Parmer"
+        },
+        {
+          "average_value": "$356K",
+          "neighborhood": "North Lamar"
+        },
+        {
+          "average_value": "$354K",
+          "neighborhood": "Georgian Acres"
+        }
+      ]
+    },
+    {
+      "zipcode": "78759",
+      "neighborhoods_info": [
+        {
+          "average_value": "$823K",
+          "neighborhood": "Great Hills"
+        },
+        {
+          "average_value": "$764K",
+          "neighborhood": "Westover Hills"
+        },
+        {
+          "average_value": "$710K",
+          "neighborhood": "Arboretum"
+        },
+        {
+          "average_value": "$678K",
+          "neighborhood": "Angus Ranch"
+        },
+        {
+          "average_value": "$602K",
+          "neighborhood": "Quarry"
+        },
+        {
+          "average_value": "$494K",
+          "neighborhood": "North Shoal Creek"
+        },
+        {
+          "average_value": "$489K",
+          "neighborhood": "Balcones District Park"
+        },
+        {
+          "average_value": "$239K",
+          "neighborhood": "North Burnet"
+        }
+      ]
+    },
+    {
+      "zipcode": "78750",
+      "neighborhoods_info": [
+        {
+          "average_value": "$894K",
+          "neighborhood": "Bull Creek"
+        },
+        {
+          "average_value": "$876K",
+          "neighborhood": "Jester"
+        },
+        {
+          "average_value": "$862K",
+          "neighborhood": "Canyon Creek"
+        },
+        {
+          "average_value": "$503K",
+          "neighborhood": "Four Points"
+        },
+        {
+          "average_value": "$473K",
+          "neighborhood": "Anderson Mill"
+        }
+      ]
+    },
+    {
+      "zipcode": "78747",
+      "neighborhoods_info": [
+        {
+          "average_value": "$477K",
+          "neighborhood": "Onion Creek"
+        },
+        {
+          "average_value": "$447K",
+          "neighborhood": "Southeast Austin"
+        },
+        {
+          "average_value": "$365K",
+          "neighborhood": "Bluff Springs"
+        }
+      ]
+    },
+    {
+      "zipcode": "78653",
+      "neighborhoods_info": [
+        {
+          "average_value": "$796K",
+          "neighborhood": "River Ranch"
+        },
+        {
+          "average_value": "$451K",
+          "neighborhood": "East Pflugerville"
+        },
+        {
+          "average_value": "$400K",
+          "neighborhood": "Parmer Lane"
+        },
+        {
+          "average_value": "$371K",
+          "neighborhood": "Harris Branch"
+        },
+        {
+          "average_value": "$336K",
+          "neighborhood": "Hornsby Bend"
+        },
+        {
+          "average_value": "$446K",
+          "neighborhood": "Whisper Valley"
+        },
+        {
+          "average_value": "$425K",
+          "neighborhood": "Decker Lane"
+        }
+      ]
+    },
+    {
+      "zipcode": "78859",
+      "neighborhoods_info": []
+    },
+    {
+      "zipcode": "78726",
+      "neighborhoods_info": [
+        {
+          "average_value": "$862K",
+          "neighborhood": "Canyon Creek"
+        },
+        {
+          "average_value": "$791K",
+          "neighborhood": "Grandview Hills"
+        },
+        {
+          "average_value": "$503K",
+          "neighborhood": "Four Points"
+        }
+      ]
+    },
+    {
+      "zipcode": "78680",
+      "neighborhoods_info": [
+        {
+          "average_value": "$658K",
+          "neighborhood": "Wood Glen"
+        },
+        {
+          "average_value": "$630K",
+          "neighborhood": "Brushy Creek"
+        },
+        {
+          "average_value": "$415K",
+          "neighborhood": "Taylor"
+        },
+        {
+          "average_value": "$413K",
+          "neighborhood": "Stony Point"
+        }
+      ]
+    },
+    {
+      "zipcode": "78734",
+      "neighborhoods_info": [
+        {
+          "average_value": "$1.03M",
+          "neighborhood": "Hudson Bend"
+        },
+        {
+          "average_value": "$953K",
+          "neighborhood": "Lakeway"
+        },
+        {
+          "average_value": "$718K",
+          "neighborhood": "Apache Shores"
+        }
+      ]
+    },
+    {
+      "zipcode": "78731",
+      "neighborhoods_info": [
+        {
+          "average_value": "$3.20M",
+          "neighborhood": "Mt Bonnell"
+        },
+        {
+          "average_value": "$1.55M",
+          "neighborhood": "Highland Park West"
+        },
+        {
+          "average_value": "$1.29M",
+          "neighborhood": "Cat Mountain"
+        },
+        {
+          "average_value": "$1.29M",
+          "neighborhood": "Lower Bull Creek"
+        },
+        {
+          "average_value": "$1.02M",
+          "neighborhood": "Northwest Hills"
+        },
+        {
+          "average_value": "$1.01M",
+          "neighborhood": "Rosedale"
+        },
+        {
+          "average_value": "$938K",
+          "neighborhood": "Allandale"
+        }
+      ]
+    }
+  ]
