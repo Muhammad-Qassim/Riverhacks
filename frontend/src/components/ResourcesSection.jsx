@@ -10,6 +10,7 @@ function ResourcesSection() {
       logo: "https://cdn.builder.io/api/v1/image/assets/5656d63d216a4da9bc3276dd44e000a5/6b9a4b7db470e5e2266ed019f88211f71a99d84b?placeholderIfAbsent=true",
       title: "Google Maps API",
       remixes: "303 Remixes",
+      link: "https://developers.google.com/maps",
     },
     {
       id: 2,
@@ -18,6 +19,7 @@ function ResourcesSection() {
       logo: "https://cdn.builder.io/api/v1/image/assets/5656d63d216a4da9bc3276dd44e000a5/36ab419d167bf1332ecedf638a36d67019596203?placeholderIfAbsent=true",
       title: "City Of Austin Open Data Portal",
       remixes: "3 Remixes",
+      link: "https://data.austintexas.gov/",
     },
     {
       id: 3,
@@ -26,6 +28,7 @@ function ResourcesSection() {
       logo: "https://cdn.builder.io/api/v1/image/assets/5656d63d216a4da9bc3276dd44e000a5/810dd738ffb90bfaddfcb410c251ee9f926a9e31?placeholderIfAbsent=true",
       title: "Meta LlaMA",
       remixes: "932 Remixes",
+      link: "https://ai.meta.com/llama/",
     },
     {
       id: 4,
@@ -34,6 +37,7 @@ function ResourcesSection() {
       logo: "https://cdn.builder.io/api/v1/image/assets/5656d63d216a4da9bc3276dd44e000a5/1d2d3d54294de1172d156aff92cb5d15f5e4548e?placeholderIfAbsent=true",
       title: "Zillow",
       remixes: "152 Remixes",
+      link: "https://www.zillow.com/research/data/",
     },
   ];
 
