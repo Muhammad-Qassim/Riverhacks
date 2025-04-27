@@ -11,8 +11,8 @@ function Navbar() {
             alt="Safe Move Logo"
           />
           <h1 className="self-stretch my-auto">Safe</h1>
-          <h1 className="self-stretch my-auto">Move</h1>
-        </div>
+          <h1 style={{ fontFamily: "'Pacifico', cursive" }} className="font-pacificoself-stretch my-auto max-md:text-4xl">Move</h1>
+          </div>
         <button className="gap-2.5 self-stretch px-5 py-2 my-auto ml-auto text-base leading-relaxed text-center rounded-lg bg-zinc-900 text-stone-50">
           Sign up
         </button>

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react"; // 1. Import useState
 
+import "@fontsource/pacifico"; 
 
 // Updated KeywordButton component
 function KeywordButton({ icon, text, onClick }) {
@@ -22,19 +23,22 @@ function KeywordButton({ icon, text, onClick }) {
 }
 
 function HeroSection() {
-   // 2. Add state for the search input value
-   const [searchValue, setSearchValue] = useState("");
+   // 2. Replace state for the search input value with selectedKeywords and freeText
+   const [selectedKeywords, setSelectedKeywords] = useState([]);
+   const [freeText, setFreeText] = useState("");
 
 
-   // 4. Create handler function to update the search value state
+   // 4. Updated handler function to add keyword if not already present
    const handleKeywordClick = (keyword) => {
-    setSearchValue(prev =>
-      // if there's already text, put a space between keyword and existing
-      `${keyword}${prev ? " " + prev : ""}`
-    );
-  };
+     if (!selectedKeywords.includes(keyword)) {
+       setSelectedKeywords(prev => [...prev, keyword]);
+     }
+   };
 
-  
+   // 3. Add removeKeyword function
+   const removeKeyword = (index) => {
+     setSelectedKeywords(prev => prev.filter((_, i) => i !== index));
+   };
 
 
 
@@ -42,7 +46,7 @@ function HeroSection() {
     <section className="flex relative flex-col mt-36 max-w-full w-[868px] max-md:mt-10">
       <div className="self-center max-w-full w-[705px]">
         <div className="w-full max-md:max-w-full">
-          <div className="flex flex-wrap gap-3.5 items-center w-full text-7xl text-black max-md:max-w-full max-md:text-4xl max-sm:flex max-sm:flex-row max-sm:m-5 max-sm:w-full max-sm:max-w-full">
+          <div className="flex flex-wrap gap-2.5 items-center w-full text-7xl text-black max-md:max-w-full max-md:text-4xl max-sm:flex max-sm:flex-row max-sm:m-5 max-sm:w-full max-sm:max-w-full">
             <h2 className="self-stretch my-auto text-6xl font-medium leading-none text-center max-md:text-4xl">
               Move with
             </h2>
@@ -52,7 +56,7 @@ function HeroSection() {
               alt="Safe Move Icon"
             />
             <h2 className="self-stretch my-auto max-md:text-4xl">Safe</h2>
-            <h2 className="self-stretch my-auto max-md:text-4xl">Move</h2>
+            <h2 style={{ fontFamily: "'Pacifico', cursive" }} className="font-pacificoself-stretch my-auto max-md:text-4xl">Move</h2>
           </div>
           <p className="flex-1 shrink gap-2.5 self-stretch w-full text-xl leading-loose text-center basis-0 text-zinc-900 max-md:max-w-full max-sm:p-5">
             The Best Neighborhoods based on your preferences
@@ -65,15 +69,31 @@ function HeroSection() {
       <div className="flex overflow-hidden flex-wrap items-end px-3 py-2.5 w-full rounded-2xl border border-solid bg-stone-100 border-zinc-900 border-opacity-20 shadow-[0px_18px_29px_rgba(0,0,0,0.04)] max-md:max-w-full max-sm:mx-auto max-sm:w-4/5 max-sm:max-w-[80%] min-h-40">
       
       
+          {selectedKeywords.map((kw, idx) => (
+            <span
+              key={idx}
+              className="border border-gray-300 rounded-full px-3 py-1 mr-2 mb-2 text-base flex items-center"
+            >
+              {kw}
+              <button
+                onClick={() => removeKeyword(idx)}
+                className="ml-1 text-gray-500 hover:text-gray-700"
+                aria-label="Remove keyword"
+              >
+                &times;
+              </button>
+            </span>
+          ))}
+
           <input
             type="text"
             placeholder="Enter your budget and what you want nearby…"
             className="overflow-hidden grow shrink self-stretch px-2.5 text-2xl text-black rounded-lg min-h-[26px] min-w-60 w-[821px] max-md:max-w-full bg-stone-100 focus:outline-none"
             
-             // 3. Control the Input 
+             // 5. Control the Input 
              
-            value={searchValue} // Bind value to state
-            onChange={(e) => setSearchValue(e.target.value)} // Update state on typing
+            value={freeText} // Bind value to freeText state
+            onChange={(e) => setFreeText(e.target.value)} // Update state on typing
           />
 
 
