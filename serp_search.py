@@ -54,7 +54,7 @@ def search_google_maps(place):
     else:
         print("No results found.")
 
-
+ ## this failed to work
 def search_for_address(placename, zipcode, locationInfo):
     params = {
         "engine": "google_maps",
@@ -78,6 +78,7 @@ def search_for_address(placename, zipcode, locationInfo):
         return "Address notfound"
 
 
+###
 def search_with_yelp(place, zipcode, locationInfo):
     params = {
         "api_key": SERPAPI_API_KEY,
@@ -109,8 +110,9 @@ def main():
     place = sys.argv[2]
     zipcode = sys.argv[3] if len(sys.argv) > 3 else ""
     locationInfo = sys.argv[4] if len(sys.argv) > 4 else ""
+    
     if choice == "1":
-        search_google_maps(place)
+        search_google_maps(place + zipcode)
     elif choice == "2":
         if not zipcode or not locationInfo:
             print("Zipcode and location required for Yelp search.")
