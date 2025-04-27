@@ -19,12 +19,15 @@ def build_context_for_gemini(qdrant_matches: list, businesses_lookup: dict) -> s
 
         businesses_text = ", ".join(businesses) if businesses else "No major businesses found"
 
+        zillow_link = f"https://www.zillow.com/homes/{neighborhood_name.replace(' ', '-')}_rb/"
+
         context += (
             f"{idx}. {neighborhood_name} (Zipcode: {zipcode})\n"
             f"   - Average Home Price: {average_value}\n"
             f"   - Crime Count: {crime_count}\n"
             f"   - Common Crimes: {', '.join(crimes)}\n"
             f"   - Top Amenities Nearby: {businesses_text}\n\n"
+            f"   - Zillow Link: {zillow_link}\n\n"
         )
 
     return context

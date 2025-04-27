@@ -15,6 +15,7 @@ def ask_gemini(context: str, user_query: str) -> str:
         "or line breaks. Make your response flow naturally like a text message conversation."
         "Only include information that appears in the provided neighborhood data and do not invent any details."
         "If certain information isn't available, simply focus on what you do know from the context."
+        "after end of each query add a link to Zillow for each neighborhood after line break, like this: 'Zillow Link:"
     )
 
     response = model.generate_content(prompt)
