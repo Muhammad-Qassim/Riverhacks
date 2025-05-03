@@ -1,4 +1,4 @@
-# 🏡Move with *Safe Move*
+# Move with 🏡 *Safe Move*
 
 An AI-powered chatbot that helps users find the perfect place to live in Austin, Texas — available on the web and via SMS!  
 Built for **RiverHack 2025**.
